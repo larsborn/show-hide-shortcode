@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
     $('.showhideshortcode-content>p>a').each((i, a) => {
         const $a = $(a);
-        $a.on('click', () => {
+        $a.on('click', event => {
             const divs = $($a.parent().parent()).find('div');
             if (divs.length !== 1) return;
             let isHidden = divs[0].style.display === 'none';
@@ -18,6 +18,7 @@ jQuery(document).ready(function ($) {
             let $div = $(divs[0]);
             removeEmptyChildren($div);
             $div.css({display: isHidden ? 'contents' : 'none'});
+            event.preventDefault();
         });
     });
 });
