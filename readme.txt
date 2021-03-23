@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Show/Hide Shortcode ===
 Contributors: larsborn
 Tags: read more, read less, show more, show less, expander, folder
 Requires at least: 5.7
