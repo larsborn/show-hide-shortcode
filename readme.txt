@@ -3,7 +3,7 @@ Contributors: larsborn
 Tags: read more, read less, show more, show less, expander, folder
 Requires at least: 5.7
 Tested up to: 5.7
-Stable tag: 1.0
+Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -54,5 +54,5 @@ Similarly, use the `hide_caption` attribute to change the "Show less..." default
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Initial Release
